@@ -9,9 +9,9 @@ import Contact from "./pages/contact";
 
 function App () {
   return (
-    <>
+    <div className="thewrapper">
       <Navbar />
-      <main>
+      <main className="page-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -20,7 +20,7 @@ function App () {
         </Routes>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

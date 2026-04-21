@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Content From Major Assignment 2",
+    "description": "Major Project II was a front-end development project that involved incorporating video-based content into a webpage design. I produced a website that showcases different drum beats alongside their associated notation, with the goal of creating an educational resource for learning and reference.",
+    "image": "/assets/majorproject2.png",
+    "href": "major2videos.html",
+    "spanTwo": false
+  },
+  {
+    "title": "Preserv",
+    "description": "Preserv is a senior design capstone project created in collaboration with four other team members. I was tasked with managing the overall production of the high-fidelity prototype, ensuring consistency across different screens, interactions, and user flows, and helping shape the final product into a cohesive and functional user experience.",
+    "image": "/assets/preservproject.png",
+    "href": "https://www.figma.com/proto/H4YGKsuLYV8Rg09YohnzuU/HiFi-Prototype?node-id=31-288&p=f&m=dev&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=91%3A414",
+    "spanTwo": false
+  },
+  {
+    "title": "Recipe Notebook",
+    "description": "Recipe Notebook was a semester-long user-centered design project focused on developing an application and iteratively improving its functionality through user testing and market analysis. The project emphasized validating design decisions with real user feedback and evidence-based iteration.",
+    "image": "/assets/recipenotebook.png",
+    "href": "https://docs.google.com/document/d/1JlCND7oTP2jxVnAhJlY4RqVcjXSnVRVZuziJYexzcnw/edit?usp=sharing",
+    "spanTwo": false
+  },
+  {
+    "title": "Comic Strip",
+    "description": "Created for a class focused on advanced photo editing techniques, this project involved designing a comic strip using open-source, freely available images sourced from the web, combined with original digital drawing and painting. The final work emphasizes image composition, layering, and visual storytelling.",
+    "image": "/assets/comicstrip.jpg",
+    "href": "major2videos.html#comicstrip",
+    "spanTwo": true
+  }
+]
