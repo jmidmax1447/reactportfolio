@@ -5,10 +5,14 @@
   align-items: center;
 }
  
-#projects h2 {
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 32px;
+.project-heading {
+  font-size: 150px;
+  text-align: left;
+  width: min(1104px, 100%); 
+  margin: 0 auto 40px;      
+  padding: 0;               
+  align-self: center; 
+  
 }
  
 .projects-grid {
@@ -37,5 +41,9 @@
 
   .project-card img {
     height: 360px;
+  }
+  .project-heading {
+    font-size: 64px;
+    margin-bottom: 18px;
   }
 }

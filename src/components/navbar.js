@@ -1,6 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
+import { ReactComponent as NavLogo } from "../assets/navbarlogo.svg"
 import "../styles/navbar.css";
 
 function Navbar() {
@@ -31,10 +32,9 @@ function Navbar() {
       transition = {{ duration: 0.35, ease: [0.22, 1 ,0.36, 1]}}
     >
     <nav>
-      <NavLink to="/" className="nav-header">
-        JASON MIDLANE
+      <NavLink to="/" className=" nav-header nav-logo-link">
+         <NavLogo className="nav-logo" />    
       </NavLink>
-
       <ul className="nav-links">
         <li>
           <NavLink to="/about" className="nav-header">

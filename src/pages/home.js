@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 import nameBg from "../assets/backgroundname.svg";
 import heroBg from "../assets/background-01.png";
 import "../styles/home.css";
@@ -55,12 +56,25 @@ function Home () {
                 />
             </div>
 
-            <div className="home-below container">
-                <h1>Front-End Developer</h1>
-                <p>
-                I build modern, responsive interfaces with React. Check out my projects and
-                reach out if you want to work together.
-                </p>
+            <div className="home-below">
+                <h1 className="welcome-title">Welcome.</h1>
+                    <div className="below-welcome">
+                        <p className="hellomyfriend">Hi, I’m Jason...</p>
+                        <p className="welcome-text">
+                            I am a soon-to-be graduate from the University of Central Florida, earning my degree in Digital Media with a focus on Web and Social Platforms. My coursework has provided me with a strong foundation in UI/UX design, front-end and back-end development, and content production. Throughout this portfolio, you’ll find a collection of projects from my academic experience that reflect my growth and skills in the field of digital media and interactive design. Feel free to explore my work and see how I bring ideas to life through thoughtful design and development.
+                        </p>
+                        <div className="welcome-actions">
+                            <NavLink className="welcome-btn" to="/about">
+                                <span>More About Me</span>
+                            </NavLink>
+                            <NavLink className="welcome-btn" to="/projects">
+                                <span>Projects</span>
+                            </NavLink>
+                            <NavLink className="welcome-btn welcome-btn--primary" to="/contact">
+                                <span>Contact</span>
+                            </NavLink>
+                        </div>
+                    </div>
             </div>
         </div>
     );

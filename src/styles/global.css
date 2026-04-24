@@ -22,6 +22,7 @@ body {
 .page-content {
   flex: 1;
   padding-top: 100px;
+  overflow-x: hidden;
 }
 
 a { color: inherit; text-decoration: none; }

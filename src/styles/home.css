@@ -52,12 +52,93 @@
 }
 .home-below {
     min-height: 100vh;
-    padding: 60px 0 80px;
     color: #1E1E1E;
+    margin-right: 25px;
 }
 .about-bg,
 .about-bg-2,
 .namething {
   position: absolute; 
   z-index: 2;
+}
+
+.welcome-title {
+  font-size: 150px;
+  margin-left: 25px !important;
+}
+.below-welcome {
+  color: #E8E2D9;
+  background-color: #4A7C6F;
+  padding: 25px;
+  max-width: 1200px;
+  min-height: 700px;
+  margin-top: -150px;
+  margin-left: 50px;
+}
+.welcome-text {
+  font-size: 20px;
+  margin-top: 25px;
+}
+.hellomyfriend {
+  font-size: 45px;
+}
+@media (max-width: 640px) {
+  .welcome-title {
+    font-size: 64px !important;
+    margin-left: 16px !important;
+  }
+
+  .below-welcome {
+    margin-left: 16px;
+    margin-right: 16px; 
+    padding: 16px;
+    min-height: 500px; 
+    margin-top: -65px;
+  }
+}
+.welcome-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0;
+  margin-top: 24px;
+}
+
+.welcome-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  width: 350px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #E8E2D9;
+  background: linear-gradient(to right, #C94A1E 50%, #4A7C6F 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  border-top: 3px solid #E8E2D9;
+  border-bottom: 3px solid #E8E2D9;
+  border-left: none;
+  border-right: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-position 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+.welcome-btn:hover {
+  background-position: left bottom;
+  color: #1E1E1E;
+  border-top-color: #1E1E1E;
+  border-bottom-color: #1E1E1E;
+}
+
+.welcome-btn::after {
+  content: "➔";
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  color: #1E1E1E;
+}
+
+.welcome-btn:hover::after {
+  opacity: 1;
 }

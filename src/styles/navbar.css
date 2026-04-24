@@ -43,3 +43,12 @@ nav {
 .nav-header:hover::before {
   transform: scaleX(1);
 }
+.nav-logo-link::before {
+  bottom: 50px;
+}
+
+.nav-logo {
+  height: 150px;
+  width: auto;
+  display: block;
+}
