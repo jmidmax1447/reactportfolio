@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
  
  
 function ProjectCard({ title, description, image, href, spanTwo }) {
+    console.log(`${process.env.PUBLIC_URL}/${image}`)
     let cardClass = 'project-card';
     if (spanTwo) {
         cardClass= 'project-card project-card-span-two';
