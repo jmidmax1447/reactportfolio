@@ -62,7 +62,7 @@ function MajorProject() {
         <div className="comicstrip-wrap">
           <img
             className="comicstrip-full"
-            src="/assets/comicstrip.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/comicstrip.jpg`}
             alt="Comic strip full image"
           />
         </div>

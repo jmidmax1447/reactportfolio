@@ -15,7 +15,7 @@ function ProjectCard({ title, description, image, href, spanTwo }) {
         <Link className={cardClass} to={href}>
           <div className="side-left"></div>
           <div className="side-right"></div>
-          <img src={image} alt={title} />
+          <img src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
           <div className="project-overlay">
             <h3>{title}</h3>
             <p>{description}</p>
@@ -33,7 +33,7 @@ function ProjectCard({ title, description, image, href, spanTwo }) {
     >
       <div className="side-left"></div>
       <div className="side-right"></div>
-      <img src={image} alt={title} />
+      <img src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
       <div className="project-overlay">
         <h3>{title}</h3>
         <p>{description}</p>
