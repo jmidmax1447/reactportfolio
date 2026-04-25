@@ -43,9 +43,16 @@
   },
   {
     "title": "Toon-Tier",
-    "description": "Toon Tier is a full-stack web application developed using agentic AI tools, primarily GitHub Copilot, for a low- and no-code development course. The project focused on using AI-driven prompting to build both the front end and back end. It demonstrates my ability to create a fully functioning website by guiding and refining AI-generated code.",
+    "description": "Toon Tier is a full-stack web application built with React for the frontend and Supabase for the backend, designed as a cartoon rating and tracking platform. Users can create accounts, manage watchlists (watching, completed, dropped), and leave ratings and reviews that are visible across the site. If I were to continue developing Toon Tier, I would expand its community features by adding a friend system to allow users to connect and view each other’s activity, as well as an online forum/discussion section to encourage deeper engagement. I would also revisit parts of the UI/UX to improve consistency and scalability as the platform grows.",
     "image": "/assets/toontier.png",
     "href": "https://toontier.netlify.app/",
     "spanTwo": true
+  },
+  {
+    "title": "Cafe-Lunar",
+    "description": "Cafe Lunar is a mock business website designed and developed as a rapid-turnaround project using Claude Code for AI-assisted development. Built in approximately 3 hours, it was created using HTML, CSS, and JavaScript to simulate a real-world landing page for a café brand. If I were to revisit Cafe Lunar, I would potentially convert it into a component-based framework for easier scalability and reuse.",
+    "image": "/assets/cafelunar.png",
+    "href": "https://dig4503cexercise2cafelunar.netlify.app/",
+    "spanTwo": false
   }
 ]
